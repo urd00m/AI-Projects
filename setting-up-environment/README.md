@@ -67,3 +67,4 @@ To start off, create an account on [Github](https://github.com/). Then, follow t
 5. Execute the code in `setup_test.ipynb` and make sure it worked
 6. Push all you changes to GitHub, as you did above. 
 
+done
