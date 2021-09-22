@@ -68,3 +68,4 @@ To start off, create an account on [Github](https://github.com/). Then, follow t
 6. Push all you changes to GitHub, as you did above. 
 
 done
+done
