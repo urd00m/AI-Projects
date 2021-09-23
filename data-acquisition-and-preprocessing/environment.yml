@@ -1,0 +1,18 @@
+name: data-preprocessing
+
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - huggingface
+
+dependencies:
+  - python=3.9
+  - jupyter
+  - jupyterlab
+  - numpy
+  - matplotlib
+  - pandas
+  - pytorch
+  - transformers
+  - emoji
