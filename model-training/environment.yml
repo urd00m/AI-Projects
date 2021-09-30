@@ -1,0 +1,22 @@
+name: model-training
+
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - huggingface
+
+dependencies:
+  - python=3.9
+  - pip
+  - jupyter
+  - jupyterlab
+  - numpy
+  - matplotlib
+  - pandas
+  - pytorch
+  - transformers
+  - emoji
+  - tensorboardx
+  - pip:
+    - simpletransformers
