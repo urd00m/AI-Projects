@@ -41,7 +41,12 @@ def run_nala():
         code,out,err = osascript.run('tell app "Terminal" to do script "cd ~/Desktop\nsay online\nworkspace_bringup\nclear" activate')
     elif(userinput == "jump"):
         pyautogui.write("jump\n")
-    
+    elif("nala sleep" in userinput):
+        os.system("pmset sleepnow")
+    elif(userinput == "top"):
+        code,out,err = osascript.run('tell app "Terminal" to do script "top" activate')
+
+
 # Init
 listener = sr.Recognizer()
 microphone = sr.Microphone()
