@@ -33,12 +33,15 @@ def run_nala():
     userinput = take_command()
     print(userinput)
     if(userinput == "quit"):
+        talk("nala shutdown")
         sys.exit(0)
     elif(userinput == "new terminal"):
         subprocess.call(['open', '-n', '-a', 'Terminal.app'])
     elif(userinput == "new workspace"):
         code,out,err = osascript.run('tell app "Terminal" to do script "cd ~/Desktop\nsay online\nworkspace_bringup\nclear" activate')
-
+    elif(userinput == "jump"):
+        pyautogui.write("jump\n")
+    
 # Init
 listener = sr.Recognizer()
 microphone = sr.Microphone()
