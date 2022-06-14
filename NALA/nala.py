@@ -4,6 +4,12 @@ import pywhatkit
 import datetime
 import wikipedia
 import sys
+import subprocess
+import tempfile
+import os
+import time
+import pyautogui
+import osascript
 
 # Functions
 def talk(text):
@@ -28,6 +34,10 @@ def run_nala():
     print(userinput)
     if(userinput == "quit"):
         sys.exit(0)
+    elif(userinput == "new terminal"):
+        subprocess.call(['open', '-n', '-a', 'Terminal.app'])
+    elif(userinput == "new workspace"):
+        code,out,err = osascript.run('tell app "Terminal" to do script "cd ~/Desktop\nsay online\nworkspace_bringup\nclear" activate')
 
 # Init
 listener = sr.Recognizer()
@@ -50,8 +60,6 @@ print(""" _   _   ___   _       ___
 | |\  || | | || |____| | | | 
 \\_| \\_/\\_| |_/\\_____/\\_| |_/ """)
                             
-                            
-
 # run
 while True:
     run_nala()
