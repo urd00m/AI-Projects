@@ -1,4 +1,9 @@
+# general ignores
 *~undo-tree~
 *~
 .ipynb_checkpoints/
-aclImdb/
+
+# tensorflow play ignores
+tensorflow_play/tf_guide/aclImdb/
+tensorflow_play/tf_guide/dnn_model/
+tensorflow_play/tf_guide/my_dir/
