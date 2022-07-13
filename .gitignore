@@ -12,3 +12,4 @@ tensorflow_play/images_tf/models/
 tensorflow_play/audio_tf/data/ 
 tensorflow_play/text_tf/annotations/
 tensorflow_play/text_tf/train2014/
+checkpoints/
