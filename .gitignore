@@ -9,3 +9,6 @@ tensorflow_play/tf_guide/dnn_model/
 tensorflow_play/tf_guide/my_dir/
 tensorflow_play/tf_guide/traffic/
 tensorflow_play/images_tf/models/
+tensorflow_play/audio_tf/data/ 
+tensorflow_play/text_tf/annotations/
+tensorflow_play/text_tf/train2014/
