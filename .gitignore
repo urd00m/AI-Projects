@@ -14,4 +14,7 @@ tensorflow_play/text_tf/annotations/
 tensorflow_play/text_tf/train2014/
 checkpoints/
 tensorflow_play/audio_tf/test_data/
+tensorflow_play/audio_tf/datasets/
+tensorflow_play/audio_tf/dogs_and_cats_yamnet/
+tensorflow_play/audio_tf/model.png
 
