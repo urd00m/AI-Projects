@@ -16,5 +16,6 @@ checkpoints/
 tensorflow_play/audio_tf/test_data/
 tensorflow_play/audio_tf/datasets/
 tensorflow_play/audio_tf/dogs_and_cats_yamnet/
-tensorflow_play/audio_tf/model.png
+tensorflow_play/GAN/*.png
+tensorflow_play/GAN/training_checkpoints/
 
