@@ -19,4 +19,6 @@ tensorflow_play/audio_tf/dogs_and_cats_yamnet/
 tensorflow_play/GAN/*.png
 tensorflow_play/GAN/training_checkpoints/
 tensorflow_play/GAN/logs/
+tensorflow_play/GAN/discriminator_pix2pix/
+tensorflow_play/GAN/generator_pix2pix/
 
