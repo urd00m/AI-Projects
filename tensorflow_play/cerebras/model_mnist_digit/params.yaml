@@ -1,0 +1,32 @@
+description: FC-MNIST base model params
+model:
+  activation_fn: relu
+  dropout: 0.2
+  hidden_sizes:
+  - 500
+  - 300
+optimizer:
+  beta1: 0.9
+  beta2: 0.999
+  epsilon: 1.0e-08
+  learning_rate: 0.001
+runconfig:
+  compile_only: false
+  cs_ip: null
+  device: null
+  eval_steps: null
+  keep_checkpoint_max: 2
+  max_steps: 100000
+  mode: train
+  model_dir: /home/alwang/R1.1.0/modelzoo/fc_mnist/tf/model_dir
+  multireplica: false
+  params: /home/alwang/R1.1.0/modelzoo/fc_mnist/tf/configs/params.yaml
+  save_checkpoints_steps: 10000
+  save_summary_steps: 500
+  steps: null
+  validate_only: false
+train_input:
+  batch_size: 256
+  data_dir: ./tfds
+  num_parallel_calls: 0
+  shuffle: true
