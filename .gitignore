@@ -22,3 +22,6 @@ tensorflow_play/GAN/logs/
 tensorflow_play/GAN/discriminator_pix2pix/
 tensorflow_play/GAN/generator_pix2pix/
 
+# pytorch play ignore 
+pytorch_play/basics/data
+
