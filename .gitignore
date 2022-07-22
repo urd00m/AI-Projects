@@ -24,4 +24,4 @@ tensorflow_play/GAN/generator_pix2pix/
 
 # pytorch play ignore 
 pytorch_play/basics/data
-
+pytorch_play/images/PennFudanPed
