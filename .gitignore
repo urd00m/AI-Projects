@@ -2,6 +2,7 @@
 *~undo-tree~
 *~
 .ipynb_checkpoints/
+__pycache__/
 
 # tensorflow play ignores
 tensorflow_play/tf_guide/aclImdb/
