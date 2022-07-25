@@ -84,7 +84,6 @@ def evaluate(model, data_loader, device):
     for images, targets in metric_logger.log_every(data_loader, 100, header):
         images = list(img.to(device) for img in images)
 
-        print("Not running")
         #torch.cuda.synchronize()
         model_time = time.time()
         outputs = model(images)
@@ -108,3 +107,6 @@ def evaluate(model, data_loader, device):
     coco_evaluator.summarize()
     torch.set_num_threads(n_threads)
     return coco_evaluator
+
+def test():
+    print("confirm")
