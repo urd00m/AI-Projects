@@ -28,3 +28,4 @@ tensorflow_play/GAN/generator_pix2pix/
 pytorch_play/basics/data
 pytorch_play/images/PennFudanPed
 pytorch_play/images/hymenoptera_data
+pytorch_play/data/
