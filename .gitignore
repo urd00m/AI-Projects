@@ -32,3 +32,7 @@ pytorch_play/data/
 pytorch_play/images/celeba/
 pytorch_play/images/DCGAN_save/
 pytorch_play/images/MNIST
+pytorch_play/images/fbdeit_optimized_scripted_quantized.pt
+pytorch_play/images/fbdeit_optimized_scripted_quantized_lite.ptl
+pytorch_play/images/fbdeit_scripted.pt
+pytorch_play/images/fbdeit_scripted_quantized.pt
