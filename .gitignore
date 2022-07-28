@@ -37,3 +37,4 @@ pytorch_play/images/fbdeit_optimized_scripted_quantized_lite.ptl
 pytorch_play/images/fbdeit_scripted.pt
 pytorch_play/images/fbdeit_scripted_quantized.pt
 pytorch_play/text/data
+pytorch_play/text/data_2
